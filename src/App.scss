@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  max-width: 800px;
+  margin: 50px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px 5px;
+}
+
+.pokemon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 150px;
+  border: 1px solid black;
+}
+
+button {
+  border: none;
+  border-top: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+}
+
+.single-pokemon-container {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 5px;
+  background-image: url(https://www.teahub.io/photos/full/26-266410_pokemon-ball-background.jpg);
+  background-size: contain;
+}
+
+.single-pokemon {
+  display: flex;
+  width: fit-content;
+  margin: 50px auto;
+  flex-direction: column;
+}
+
+.single-pokemon-info {
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 10px 30px;
+}
+
+.button-change-pokemon {
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+}
+
+.button-see-moves {
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+}
+
+.single-pokemon-container-wrapper{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+justify-content: center;
+align-items: center;
+}
+
+.pokemon-count {
+font-size: larger;
+font-weight: 500;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 700;
+}
